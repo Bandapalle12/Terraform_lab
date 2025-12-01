@@ -11,7 +11,7 @@ variable "instance_type" {
 
 variable "ami_id" {
   type    = string
-  default = "ami-0f58b397bc5c1f2e8"
+  default = "ami-0fa3fe0fa7920f68e"
 }
 
 variable "docker_image" {
