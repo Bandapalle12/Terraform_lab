@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "terraformbackendstore11"      # change to your bucket name
     key            = "ec2-docker-lab/terraform.tfstate"
-    region         = "ap-south-1"
+    region         = "us-east-1"
     dynamodb_table = "terraform-locks"             # change to your DynamoDB table
     encrypt        = true
   }
